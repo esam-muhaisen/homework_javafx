@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SystemPageController">
+   <children>
+      <Label layoutX="25.0" layoutY="70.0" style="-fx-background-color: 2E00A6;" text="Currency Converstion System " textFill="#2c00a6">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="logout" layoutX="363.0" layoutY="69.0" mnemonicParsing="false" onAction="#logout" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: FFCA1F;" text="Log out" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="317.0" layoutY="174.0" style="-fx-background-color: 2E00A6;" text="NIS" textFill="#2c00a6">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="174.0" style="-fx-background-color: 2E00A6;" text="USD" textFill="#2c00a6">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nis" layoutX="278.0" layoutY="218.0" onAction="#nis" prefHeight="30.0" prefWidth="108.0" />
+      <TextField fx:id="usd" layoutX="83.0" layoutY="218.0" onAction="#usd" prefHeight="30.0" prefWidth="108.0" />
+      <Label layoutX="223.0" layoutY="220.0" style="-fx-background-color: 2E00A6;" text="TO" textFill="#2c00a6">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="convert" layoutX="190.0" layoutY="306.0" mnemonicParsing="false" onAction="#convert" style="-fx-background-color: #2c00a6;" text="Convert" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
